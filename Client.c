@@ -559,7 +559,6 @@ int main(){
     socketd=socket(AF_INET,SOCK_STREAM,0);
     server.sin_family=AF_INET;
     server.sin_addr.s_addr=INADDR_ANY;
-    //server.sin_addr.s_addr=inet_addr("127.0.0.1");
 
     //Change the port number every time you run the code
     server.sin_port=htons(5543);
