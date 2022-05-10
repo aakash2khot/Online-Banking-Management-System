@@ -7,13 +7,17 @@ This is a mini Project of course Operating System where I build a banking manage
 Firstly run the the program Sign_In.c to fill new data of accounts. 
 
 -> gcc Sign_In.c -o Sign_In
+
 -> ./Sign_In
 
 Then Run the Server 
 
--> gcc -pthread Server.c -o Server  
+-> gcc -pthread Server.c -o Server
+
 -> ./Server
 
 Then Run the client 
--> gcc Client.c -o Client  
+
+-> gcc Client.c -o Client 
+
 -> ./Client
