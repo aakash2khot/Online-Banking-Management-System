@@ -4,7 +4,7 @@ This is a mini Project of course Operating System where I build a banking manage
 
 ## To run the system
 
-Firstly run the the program Sign_In.c to fill new data of accounts.\
+Firstly run the the program Sign_In.c to fill new data of accounts. \
 
 -> gcc Sign_In.c -o Sign_In\  
 -> ./Sign_In\
